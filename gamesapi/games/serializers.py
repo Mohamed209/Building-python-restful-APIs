@@ -18,7 +18,7 @@ class GameCategorySerializer(serializers.HyperlinkedModelSerializer):
         fields = (
             'url',
             'pk',
-            'category',
+            'name',
             'games')
 
 
